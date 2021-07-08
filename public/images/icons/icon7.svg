@@ -1,0 +1,692 @@
+<svg version="1.1" id="fruit-anim" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 800 600" xml:space="preserve" height="600" width="800" viewBox="0 0 800 600">
+<style>
+svg#fruit-anim {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	border: 1px dashed #ddd;
+}
+
+svg#fruit-anim circle {
+	animation-name: anim;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+
+svg#fruit-anim .turquoise {
+	fill: rgba(5, 166, 235, 0.5);
+}
+
+svg#fruit-anim .blue {
+	fill: rgba(30, 131, 232, 0.5);
+}
+
+svg#fruit-anim .purple {
+	fill: rgba(151, 45, 186, 0.5);
+}
+
+svg#fruit-anim .violet {
+	fill: rgba(191, 0, 108, 0.5);
+}
+
+svg#fruit-anim .red {
+	fill: rgba(237, 0, 32, 0.5);
+}
+
+svg#fruit-anim .orange {
+	fill: rgba(240, 88, 0, 0.5);
+}
+
+svg#fruit-anim .clementine {
+	fill: rgba(247, 148, 0, 0.5);
+}
+
+svg#fruit-anim .gold {
+	fill: rgba(250, 204, 0, 0.5);
+}
+
+svg#fruit-anim .lightgreen {
+	fill: rgba(247, 235, 0, 0.5);
+}
+
+svg#fruit-anim .green {
+	fill: rgba(192, 222, 0, 0.5);
+}
+
+svg#fruit-anim .darkgreen {
+	fill: rgba(138, 207, 0, 0.5);
+}
+
+@keyframes anim {
+	50% {
+		transform: translateY(-600px);
+	}
+
+	50.0001% {
+		transform: translateY(600px);
+	}
+}
+
+circle:nth-child(1) {
+	animation-timing-function: cubic-bezier(0.36848, 1, 0.90728, 1);
+}
+
+circle:nth-child(2) {
+	animation-timing-function: cubic-bezier(0.67561, 1, 0.17953, 1);
+}
+
+circle:nth-child(3) {
+	animation-timing-function: cubic-bezier(0.70707, 1, 0.97128, 1);
+}
+
+circle:nth-child(4) {
+	animation-timing-function: cubic-bezier(0.76492, 1, 0.58308, 1);
+}
+
+circle:nth-child(5) {
+	animation-timing-function: cubic-bezier(0.76557, 1, 0.28948, 1);
+}
+
+circle:nth-child(6) {
+	animation-timing-function: cubic-bezier(0.5377, 1, 0.75561, 1);
+}
+
+circle:nth-child(7) {
+	animation-timing-function: cubic-bezier(0.6502, 1, 0.86345, 1);
+}
+
+circle:nth-child(8) {
+	animation-timing-function: cubic-bezier(0.02074, 1, 0.84312, 1);
+}
+
+circle:nth-child(9) {
+	animation-timing-function: cubic-bezier(0.35014, 1, 0.12373, 1);
+}
+
+circle:nth-child(10) {
+	animation-timing-function: cubic-bezier(0.82892, 1, 0.21236, 1);
+}
+
+circle:nth-child(11) {
+	animation-timing-function: cubic-bezier(0.22061, 1, 0.72529, 1);
+}
+
+circle:nth-child(12) {
+	animation-timing-function: cubic-bezier(0.48789, 1, 0.07165, 1);
+}
+
+circle:nth-child(13) {
+	animation-timing-function: cubic-bezier(0.46183, 1, 0.13971, 1);
+}
+
+circle:nth-child(14) {
+	animation-timing-function: cubic-bezier(0.39302, 1, 0.30751, 1);
+}
+
+circle:nth-child(15) {
+	animation-timing-function: cubic-bezier(0.09119, 1, 0.3663, 1);
+}
+
+circle:nth-child(16) {
+	animation-timing-function: cubic-bezier(0.34363, 1, 0.29753, 1);
+}
+
+circle:nth-child(17) {
+	animation-timing-function: cubic-bezier(0.92541, 1, 0.55256, 1);
+}
+
+circle:nth-child(18) {
+	animation-timing-function: cubic-bezier(0.44816, 1, 0.93026, 1);
+}
+
+circle:nth-child(19) {
+	animation-timing-function: cubic-bezier(0.15262, 1, 0.54445, 1);
+}
+
+circle:nth-child(20) {
+	animation-timing-function: cubic-bezier(0.81468, 1, 0.16496, 1);
+}
+
+circle:nth-child(21) {
+	animation-timing-function: cubic-bezier(0.73382, 1, 0.08215, 1);
+}
+
+circle:nth-child(22) {
+	animation-timing-function: cubic-bezier(0.34005, 1, 0.81762, 1);
+}
+
+circle:nth-child(23) {
+	animation-timing-function: cubic-bezier(0.0747, 1, 0.37805, 1);
+}
+
+circle:nth-child(24) {
+	animation-timing-function: cubic-bezier(0.84531, 1, 0.9711, 1);
+}
+
+circle:nth-child(25) {
+	animation-timing-function: cubic-bezier(0.78133, 1, 0.11226, 1);
+}
+
+circle:nth-child(26) {
+	animation-timing-function: cubic-bezier(0.74532, 1, 0.11167, 1);
+}
+
+circle:nth-child(27) {
+	animation-timing-function: cubic-bezier(0.40314, 1, 0.59065, 1);
+}
+
+circle:nth-child(28) {
+	animation-timing-function: cubic-bezier(0.46087, 1, 0.86051, 1);
+}
+
+circle:nth-child(29) {
+	animation-timing-function: cubic-bezier(0.9186, 1, 0.49717, 1);
+}
+
+circle:nth-child(30) {
+	animation-timing-function: cubic-bezier(0.21826, 1, 0.94532, 1);
+}
+
+circle:nth-child(31) {
+	animation-timing-function: cubic-bezier(0.95177, 1, 0.52196, 1);
+}
+
+circle:nth-child(32) {
+	animation-timing-function: cubic-bezier(0.97396, 1, 0.37585, 1);
+}
+
+circle:nth-child(33) {
+	animation-timing-function: cubic-bezier(0.21608, 1, 0.95575, 1);
+}
+
+circle:nth-child(34) {
+	animation-timing-function: cubic-bezier(0.51288, 1, 0.99427, 1);
+}
+
+circle:nth-child(35) {
+	animation-timing-function: cubic-bezier(0.83714, 1, 0.61903, 1);
+}
+
+circle:nth-child(36) {
+	animation-timing-function: cubic-bezier(0.99833, 1, 0.40043, 1);
+}
+
+circle:nth-child(37) {
+	animation-timing-function: cubic-bezier(0.40774, 1, 0.57701, 1);
+}
+
+circle:nth-child(38) {
+	animation-timing-function: cubic-bezier(0.71164, 1, 0.18424, 1);
+}
+
+circle:nth-child(39) {
+	animation-timing-function: cubic-bezier(0.47593, 1, 0.91841, 1);
+}
+
+circle:nth-child(40) {
+	animation-timing-function: cubic-bezier(0.79804, 1, 0.24306, 1);
+}
+
+circle:nth-child(41) {
+	animation-timing-function: cubic-bezier(0.28106, 1, 0.90847, 1);
+}
+
+circle:nth-child(42) {
+	animation-timing-function: cubic-bezier(0.25227, 1, 0.50152, 1);
+}
+
+circle:nth-child(43) {
+	animation-timing-function: cubic-bezier(0.99379, 1, 0.72083, 1);
+}
+
+circle:nth-child(44) {
+	animation-timing-function: cubic-bezier(0.30706, 1, 0.28212, 1);
+}
+
+circle:nth-child(45) {
+	animation-timing-function: cubic-bezier(0.68332, 1, 0.62951, 1);
+}
+
+circle:nth-child(46) {
+	animation-timing-function: cubic-bezier(0.14421, 1, 0.79329, 1);
+}
+
+circle:nth-child(47) {
+	animation-timing-function: cubic-bezier(0.53103, 1, 0.65025, 1);
+}
+
+circle:nth-child(48) {
+	animation-timing-function: cubic-bezier(0.65992, 1, 0.51858, 1);
+}
+
+circle:nth-child(49) {
+	animation-timing-function: cubic-bezier(0.15323, 1, 0.92829, 1);
+}
+
+circle:nth-child(50) {
+	animation-timing-function: cubic-bezier(0.13671, 1, 0.52303, 1);
+}
+
+circle:nth-child(51) {
+	animation-timing-function: cubic-bezier(0.75612, 1, 0.11925, 1);
+}
+
+circle:nth-child(52) {
+	animation-timing-function: cubic-bezier(0.96823, 1, 0.79948, 1);
+}
+
+circle:nth-child(53) {
+	animation-timing-function: cubic-bezier(0.62067, 1, 0.9211, 1);
+}
+
+circle:nth-child(54) {
+	animation-timing-function: cubic-bezier(0.07084, 1, 0.22246, 1);
+}
+
+circle:nth-child(55) {
+	animation-timing-function: cubic-bezier(0.07233, 1, 0.73255, 1);
+}
+
+circle:nth-child(56) {
+	animation-timing-function: cubic-bezier(0.81708, 1, 0.56495, 1);
+}
+
+circle:nth-child(57) {
+	animation-timing-function: cubic-bezier(0.18517, 1, 0.92206, 1);
+}
+
+circle:nth-child(58) {
+	animation-timing-function: cubic-bezier(0.46663, 1, 0.54229, 1);
+}
+
+circle:nth-child(59) {
+	animation-timing-function: cubic-bezier(0.3564, 1, 0.00263, 1);
+}
+
+circle:nth-child(60) {
+	animation-timing-function: cubic-bezier(0.24515, 1, 0.33436, 1);
+}
+
+circle:nth-child(61) {
+	animation-timing-function: cubic-bezier(0.43145, 1, 0.99498, 1);
+}
+
+circle:nth-child(62) {
+	animation-timing-function: cubic-bezier(0.33222, 1, 0.92934, 1);
+}
+
+circle:nth-child(63) {
+	animation-timing-function: cubic-bezier(0.74652, 1, 0.65622, 1);
+}
+
+circle:nth-child(64) {
+	animation-timing-function: cubic-bezier(0.41983, 1, 0.65522, 1);
+}
+
+circle:nth-child(65) {
+	animation-timing-function: cubic-bezier(0.8859, 1, 0.72538, 1);
+}
+
+circle:nth-child(66) {
+	animation-timing-function: cubic-bezier(0.69841, 1, 0.49726, 1);
+}
+
+circle:nth-child(67) {
+	animation-timing-function: cubic-bezier(0.89427, 1, 0.4178, 1);
+}
+
+circle:nth-child(68) {
+	animation-timing-function: cubic-bezier(0.25481, 1, 0.26628, 1);
+}
+
+circle:nth-child(69) {
+	animation-timing-function: cubic-bezier(0.79134, 1, 0.24954, 1);
+}
+
+circle:nth-child(70) {
+	animation-timing-function: cubic-bezier(0.01277, 1, 0.57798, 1);
+}
+
+circle:nth-child(71) {
+	animation-timing-function: cubic-bezier(0.87514, 1, 0.92808, 1);
+}
+
+circle:nth-child(72) {
+	animation-timing-function: cubic-bezier(0.20592, 1, 0.1369, 1);
+}
+
+circle:nth-child(73) {
+	animation-timing-function: cubic-bezier(0.0671, 1, 0.94354, 1);
+}
+
+circle:nth-child(74) {
+	animation-timing-function: cubic-bezier(0.93594, 1, 0.75671, 1);
+}
+
+circle:nth-child(75) {
+	animation-timing-function: cubic-bezier(0.72254, 1, 0.15501, 1);
+}
+
+circle:nth-child(76) {
+	animation-timing-function: cubic-bezier(0.09779, 1, 0.18835, 1);
+}
+
+circle:nth-child(77) {
+	animation-timing-function: cubic-bezier(0.8512, 1, 0.05163, 1);
+}
+
+circle:nth-child(78) {
+	animation-timing-function: cubic-bezier(0.27799, 1, 0.76361, 1);
+}
+
+circle:nth-child(79) {
+	animation-timing-function: cubic-bezier(0.99092, 1, 0.66919, 1);
+}
+
+circle:nth-child(80) {
+	animation-timing-function: cubic-bezier(0.40152, 1, 0.20894, 1);
+}
+
+circle:nth-child(81) {
+	animation-timing-function: cubic-bezier(0.91689, 1, 0.98007, 1);
+}
+
+circle:nth-child(82) {
+	animation-timing-function: cubic-bezier(0.62115, 1, 0.11111, 1);
+}
+
+circle:nth-child(83) {
+	animation-timing-function: cubic-bezier(0.27433, 1, 0.65931, 1);
+}
+
+circle:nth-child(84) {
+	animation-timing-function: cubic-bezier(0.24254, 1, 0.2877, 1);
+}
+
+circle:nth-child(85) {
+	animation-timing-function: cubic-bezier(0.67942, 1, 0.58369, 1);
+}
+
+circle:nth-child(86) {
+	animation-timing-function: cubic-bezier(0.5291, 1, 0.39337, 1);
+}
+
+circle:nth-child(87) {
+	animation-timing-function: cubic-bezier(0.3769, 1, 0.65441, 1);
+}
+
+circle:nth-child(88) {
+	animation-timing-function: cubic-bezier(0.79175, 1, 0.26076, 1);
+}
+
+circle:nth-child(89) {
+	animation-timing-function: cubic-bezier(0.41079, 1, 0.55235, 1);
+}
+
+circle:nth-child(90) {
+	animation-timing-function: cubic-bezier(0.6327, 1, 0.45844, 1);
+}
+
+circle:nth-child(91) {
+	animation-timing-function: cubic-bezier(0.60036, 1, 0.26444, 1);
+}
+
+circle:nth-child(92) {
+	animation-timing-function: cubic-bezier(0.8852, 1, 0.40778, 1);
+}
+
+circle:nth-child(93) {
+	animation-timing-function: cubic-bezier(0.48946, 1, 0.06175, 1);
+}
+
+circle:nth-child(94) {
+	animation-timing-function: cubic-bezier(0.58972, 1, 0.29195, 1);
+}
+
+circle:nth-child(95) {
+	animation-timing-function: cubic-bezier(0.64523, 1, 0.40902, 1);
+}
+
+circle:nth-child(96) {
+	animation-timing-function: cubic-bezier(0.70457, 1, 0.91214, 1);
+}
+
+circle:nth-child(97) {
+	animation-timing-function: cubic-bezier(0.87715, 1, 0.71632, 1);
+}
+
+circle:nth-child(98) {
+	animation-timing-function: cubic-bezier(0.93095, 1, 0.30757, 1);
+}
+
+circle:nth-child(99) {
+	animation-timing-function: cubic-bezier(0.65039, 1, 0.83725, 1);
+}
+
+circle:nth-child(100) {
+	animation-timing-function: cubic-bezier(0.54371, 1, 0.72618, 1);
+}
+
+circle:nth-child(101) {
+	animation-timing-function: cubic-bezier(0.83774, 1, 0.00586, 1);
+}
+
+circle:nth-child(102) {
+	animation-timing-function: cubic-bezier(0.05597, 1, 0.19711, 1);
+}
+
+circle:nth-child(103) {
+	animation-timing-function: cubic-bezier(0.25103, 1, 0.4122, 1);
+}
+
+circle:nth-child(104) {
+	animation-timing-function: cubic-bezier(0.51565, 1, 0.43864, 1);
+}
+
+circle:nth-child(105) {
+	animation-timing-function: cubic-bezier(0.35838, 1, 0.89432, 1);
+}
+
+circle:nth-child(106) {
+	animation-timing-function: cubic-bezier(0.68091, 1, 0.16718, 1);
+}
+
+circle:nth-child(107) {
+	animation-timing-function: cubic-bezier(0.0003, 1, 0.65624, 1);
+}
+
+circle:nth-child(108) {
+	animation-timing-function: cubic-bezier(0.20875, 1, 0.31611, 1);
+}
+
+circle:nth-child(109) {
+	animation-timing-function: cubic-bezier(0.69122, 1, 0.11104, 1);
+}
+
+circle:nth-child(110) {
+	animation-timing-function: cubic-bezier(0.29049, 1, 0.10956, 1);
+}
+
+circle:nth-child(111) {
+	animation-timing-function: cubic-bezier(0.04188, 1, 0.74017, 1);
+}
+
+circle:nth-child(112) {
+	animation-timing-function: cubic-bezier(0.26675, 1, 0.9664, 1);
+}
+
+circle:nth-child(113) {
+	animation-timing-function: cubic-bezier(0.49756, 1, 0.72449, 1);
+}
+
+circle:nth-child(114) {
+	animation-timing-function: cubic-bezier(0.39546, 1, 0.45269, 1);
+}
+
+circle:nth-child(115) {
+	animation-timing-function: cubic-bezier(0.44672, 1, 0.47981, 1);
+}
+
+circle:nth-child(116) {
+	animation-timing-function: cubic-bezier(0.4705, 1, 0.15932, 1);
+}
+
+circle:nth-child(117) {
+	animation-timing-function: cubic-bezier(0.02, 1, 0.10155, 1);
+}
+
+circle:nth-child(118) {
+	animation-timing-function: cubic-bezier(0.87473, 1, 0.9621, 1);
+}
+
+circle:nth-child(119) {
+	animation-timing-function: cubic-bezier(0.53883, 1, 0.45442, 1);
+}
+
+circle:nth-child(120) {
+	animation-timing-function: cubic-bezier(0.50413, 1, 0.21189, 1);
+}
+
+circle:nth-child(121) {
+	animation-timing-function: cubic-bezier(0.04635, 1, 0.73088, 1);
+}
+
+circle:nth-child(122) {
+	animation-timing-function: cubic-bezier(0.79798, 1, 0.14438, 1);
+}
+
+circle:nth-child(123) {
+	animation-timing-function: cubic-bezier(0.70626, 1, 0.2042, 1);
+}
+
+circle:nth-child(124) {
+	animation-timing-function: cubic-bezier(0.09001, 1, 0.34351, 1);
+}
+
+</style>
+  <circle cx="406" cy="470" r="35" class="turquoise" />
+  <circle cx="367.5" cy="468.5" r="22.5" class="turquoise" />
+  <circle cx="385.5" cy="447.5" r="7.5" class="blue" />
+  <circle cx="377" cy="448" r="6" class="turquoise" />
+  <circle cx="353.5" cy="449.5" r="2.5" class="blue" />
+  <circle cx="429.5" cy="443.5" r="2.5" class="blue" />
+  <circle cx="434.5" cy="449.5" r="7.5" class="turquoise" />
+  <circle cx="326.5" cy="439.5" r="8.5" class="turquoise" />
+  <circle cx="354.5" cy="502.5" r="12.5" class="turquoise" />
+  <circle cx="420.5" cy="517.5" r="15.5" class="turquoise" />
+  <circle cx="309.5" cy="433.5" r="17.5" class="turquoise" />
+  <circle cx="284.5" cy="471.5" r="17.5" class="turquoise" />
+  <circle cx="329.5" cy="468.5" r="29.5" class="turquoise" />
+  <circle cx="452.5" cy="473.5" r="28.5" class="turquoise" />
+  <circle cx="468" cy="450" r="7" class="turquoise" />
+  <circle cx="471.5" cy="442.5" r="2.5" class="turquoise" />
+  <circle cx="480" cy="496" r="16" class="blue" />
+  <circle cx="494.5" cy="452.5" r="24.5" class="turquoise" />
+  <circle cx="495" cy="424" r="7" class="blue" />
+  <circle cx="496.5" cy="416.5" r="3.5" class="turquoise" />
+  <circle cx="487.5" cy="429.5" r="3.5" class="turquoise" />
+  <circle cx="313.5" cy="416.5" r="3.5" class="turquoise" />
+  <circle cx="304" cy="405" r="5" class="blue" />
+  <circle cx="281" cy="448" r="17" class="blue" />
+  <circle cx="245.5" cy="472.5" r="20.5" class="blue" />
+  <circle cx="293.5" cy="382.5" r="3.5" class="turquoise" />
+  <circle cx="285.5" cy="355.5" r="3.5" class="blue" />
+  <circle cx="274.5" cy="403.5" r="30.5" class="blue" />
+  <circle cx="251" cy="433" r="7" class="blue" />
+  <circle cx="517.5" cy="382.5" r="5.5" class="blue" />
+  <circle cx="525.5" cy="418.5" r="28.5" class="blue" />
+  <circle cx="562" cy="392" r="20" class="blue" />
+  <circle cx="545.5" cy="422.5" r="23.5" class="turquoise" />
+  <circle cx="523.5" cy="468.5" r="23.5" class="blue" />
+  <circle cx="306" cy="415" r="9" class="purple" />
+  <circle cx="281" cy="349" r="6" class="purple" />
+  <circle cx="272" cy="375" r="22" class="purple" />
+  <circle cx="292.5" cy="376.5" r="3.5" class="purple" />
+  <circle cx="226" cy="410" r="24" class="purple" />
+  <circle cx="280.5" cy="324.5" r="3.5" class="purple" />
+  <circle cx="207" cy="365" r="9" class="purple" />
+  <circle cx="515" cy="392" r="7" class="purple" />
+  <circle cx="534.5" cy="377.5" r="20.5" class="purple" />
+  <circle cx="569" cy="406" r="14" class="purple" />
+  <circle cx="482.5" cy="306.5" r="3.5" class="purple" />
+  <circle cx="580" cy="361" r="28" class="purple" />
+  <circle cx="258" cy="338" r="27" class="violet" />
+  <circle cx="239.5" cy="375.5" r="18.5" class="violet" />
+  <circle cx="488.5" cy="292.5" r="7.5" class="violet" />
+  <circle cx="487.5" cy="333.5" r="3.5" class="violet" />
+  <circle cx="493" cy="342" r="6" class="violet" />
+  <circle cx="577" cy="311" r="21" class="violet" />
+  <circle cx="528" cy="332" r="36" class="violet" />
+  <circle cx="261.5" cy="315.5" r="22.5" class="red" />
+  <circle cx="280.5" cy="304.5" r="4.5" class="red" />
+  <circle cx="279.5" cy="283.5" r="7.5" class="red" />
+  <circle cx="240" cy="285" r="10" class="red" />
+  <circle cx="222" cy="296" r="23" class="red" />
+  <circle cx="207" cy="266" r="11" class="red" />
+  <circle cx="214" cy="338" r="28" class="red" />
+  <circle cx="500.5" cy="315.5" r="22.5" class="red" />
+  <circle cx="498" cy="277" r="8" class="red" />
+  <circle cx="597" cy="331" r="15" class="red" />
+  <circle cx="554" cy="292" r="28" class="red" />
+  <circle cx="262" cy="291" r="23" class="red" />
+  <circle cx="486.5" cy="299.5" r="6.5" class="orange" />
+  <circle cx="522" cy="280" r="29" class="orange" />
+  <circle cx="554.5" cy="255.5" r="21.5" class="orange" />
+  <circle cx="593.5" cy="257.5" r="27.5" class="orange" />
+  <circle cx="592" cy="213" r="9" class="orange" />
+  <circle cx="490" cy="283" r="6" class="orange" />
+  <circle cx="501.5" cy="234.5" r="6.5" class="clementine" />
+  <circle cx="529.5" cy="207.5" r="17.5" class="clementine" />
+  <circle cx="525" cy="237" r="23" class="clementine" />
+  <circle cx="559" cy="224" r="14" class="clementine" />
+  <circle cx="298" cy="248" r="5" class="clementine" />
+  <circle cx="270" cy="256" r="26" class="clementine" />
+  <circle cx="239.5" cy="222.5" r="24.5" class="clementine" />
+  <circle cx="233" cy="265" r="19" class="clementine" />
+  <circle cx="295" cy="254" r="4" class="clementine" />
+  <circle cx="283" cy="275" r="5" class="gold" />
+  <circle cx="313.5" cy="232.5" r="6.5" class="gold" />
+  <circle cx="262.5" cy="228.5" r="11.5" class="gold" />
+  <circle cx="294.5" cy="231.5" r="19.5" class="gold" />
+  <circle cx="364.5" cy="211.5" r="14.5" class="gold" />
+  <circle cx="422" cy="228" r="5" class="gold" />
+  <circle cx="452" cy="220" r="6" class="gold" />
+  <circle cx="480" cy="224" r="5" class="gold" />
+  <circle cx="498" cy="218" r="19" class="gold" />
+  <circle cx="555" cy="209" r="14" class="gold" />
+  <circle cx="440" cy="219" r="9" class="gold" />
+  <circle cx="432.5" cy="220.5" r="6.5" class="lightgreen" />
+  <circle cx="412.5" cy="228.5" r="6.5" class="lightgreen" />
+  <circle cx="394.5" cy="230.5" r="6.5" class="lightgreen" />
+  <circle cx="468.5" cy="203.5" r="22.5" class="lightgreen" />
+  <circle cx="290" cy="215" r="20" class="lightgreen" />
+  <circle cx="322" cy="216" r="17" class="lightgreen" />
+  <circle cx="349" cy="204" r="23" class="lightgreen" />
+  <circle cx="376.5" cy="221.5" r="8.5" class="lightgreen" />
+  <circle cx="392" cy="216" r="7" class="lightgreen" />
+  <circle cx="418.5" cy="223.5" r="3.5" class="lightgreen" />
+  <circle cx="368" cy="146" r="14" class="lightgreen" />
+  <circle cx="507.5" cy="175.5" r="27.5" class="lightgreen" />
+  <circle cx="423.5" cy="222.5" r="4.5" class="gold" />
+  <circle cx="447.5" cy="209.5" r="7.5" class="green" />
+  <circle cx="400" cy="230" r="7" class="green" />
+  <circle cx="405" cy="230" r="7" class="green" />
+  <circle cx="389" cy="224" r="10" class="green" />
+  <circle cx="472" cy="181" r="18" class="green" />
+  <circle cx="380.5" cy="200.5" r="20.5" class="green" />
+  <circle cx="314.5" cy="192.5" r="17.5" class="green" />
+  <circle cx="420" cy="156" r="12" class="green" />
+  <circle cx="434.5" cy="143.5" r="17.5" class="green" />
+  <circle cx="498" cy="130" r="24" class="green" />
+  <circle cx="397.5" cy="117.5" r="29.5" class="darkgreen" />
+  <circle cx="440" cy="96" r="17" class="darkgreen" />
+  <circle cx="451.5" cy="134.5" r="20.5" class="darkgreen" />
+  <circle cx="393.5" cy="189.5" r="10.5" class="darkgreen" />
+  <circle cx="473.5" cy="159.5" r="16.5" class="darkgreen" />
+  <circle cx="395" cy="164" r="24" class="darkgreen" />
+  <circle cx="352.5" cy="171.5" r="17.5" class="darkgreen" />
+  <circle cx="417" cy="169" r="4" class="darkgreen" />
+  <circle cx="404" cy="185" r="4" class="darkgreen" />
+  <circle cx="335.5" cy="216.5" r="10.5" class="darkgreen" />
+</svg>
